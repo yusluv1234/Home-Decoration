@@ -1,4 +1,5 @@
 import React from 'react';
+import Discover from '../discover/Discover';
 
 import './HomeStyles.scss';
 
@@ -22,7 +23,9 @@ const HomeComponent = () => {
                     <a href='/'>Contact</a>
                 </div>
             </div>
-            
+            <div className='home-discover'>
+                <Discover />
+            </div>
         </div>
     )
 }
