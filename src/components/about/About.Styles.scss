@@ -1,0 +1,25 @@
+.about {
+    height: 70vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+// .photo {
+//     height: 100;
+//     width: 50;
+// }
+
+.about-comment {
+    background-color: white;
+    height: 40vh;
+}
+
+.comment__header {
+    background-color: white;
+
+    p {
+        background-color: white;
+    }
+}
