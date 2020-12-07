@@ -35,3 +35,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;}
+
+    @media screen and (max-width: '650px') {
+        .about {
+            display: flex!important;
+            flex-direction: column!important;
+            
+        }
+    }
