@@ -1,18 +1,19 @@
-.home-component {
-    // margin: 30px 40px 0 40px;
+.home-combine {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 70vh;
-    width: 100%;
+    // height: 25rem;   
+}
+
+.home-component {
     background-image: url('../icons/images/desktop-image-hero-1.jpg');
-    // background-position: center;
-    background-size: contain;
-    overflow: hidden;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    width: 1000px;
+    height: 25rem;
 }
 
 .navbar {
-    width: 80%;
     display: flex;
     padding-top: 20px;
 
@@ -29,5 +30,29 @@
 }
 
 .home-discover {
-    width: 70%;
+    width: 400px;
+    height: 25rem;
+}
+
+.about {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 40px;
+}
+// .photo {
+//     height: 100;
+//     width: 50;
+// }
+
+.about-comment {
+    background-color: white;
+}
+
+.comment__header {
+    background-color: white;
+
+    p {
+        background-color: white;
+    }
 }

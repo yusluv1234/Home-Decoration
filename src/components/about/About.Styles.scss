@@ -1,10 +1,7 @@
 .about {
-    height: 70vh;
-    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 40px;
-    overflow: hidden;
+    
 }
 // .photo {
 //     height: 100;
@@ -12,14 +9,29 @@
 // }
 
 .about-comment {
+    padding: 30px 40px;
     background-color: white;
-    height: 40vh;
 }
 
 .comment__header {
+    font-size: 30px;
+    font-weight: 900;
     background-color: white;
 
     p {
         background-color: white;
     }
 }
+
+.first-image {
+    background-image: url('../icons/images/image-about-dark.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second-image {
+    background-image: url('../icons/images/image-about-light.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;}

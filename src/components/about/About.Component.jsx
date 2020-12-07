@@ -1,6 +1,6 @@
 import React from 'react';
-import AboutDark from '../icons/images/image-about-dark.jpg';
-import AboutLight from '../icons/images/image-about-light.jpg';
+// import AboutDark from '../icons/images/image-about-dark.jpg';
+// import AboutLight from '../icons/images/image-about-light.jpg';
 
 import './About.Styles.scss';
 
@@ -8,7 +8,7 @@ const AboutComponent = () => {
     return (
         <div className='about'>
             <div className='first-image'>
-            <img className='photo' src={AboutDark} alt=''  />
+            {/* <img className='photo' src={AboutDark} alt=''  /> */}
             </div>
             <div className='about-comment'>
                 <div className='comment__header'>
@@ -22,7 +22,7 @@ const AboutComponent = () => {
                 </p>
             </div>
             <div className='second-image'>
-            <img className='photo' src={AboutLight} alt='' />
+            {/* <img className='photo' src={AboutLight} alt='' /> */}
 
             </div>
             

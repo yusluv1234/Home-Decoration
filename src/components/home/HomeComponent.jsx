@@ -5,6 +5,7 @@ import './HomeStyles.scss';
 
 const HomeComponent = () => {
     return (
+        <div className='home-combine'>
         <div className='home-component'>
             <div className='navbar'>
                 <div className='navbar-logo'>
@@ -23,6 +24,7 @@ const HomeComponent = () => {
                     <a href='/'>Contact</a>
                 </div>
             </div>
+        </div>
             <div className='home-discover'>
                 <Discover />
             </div>
